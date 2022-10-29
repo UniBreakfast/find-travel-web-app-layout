@@ -1,0 +1,38 @@
+header {
+  display: flex;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+}
+
+.social a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url(./icons/phone.svg);
+}
+
+.profile-btn {
+  background-image: url(./icons/ava.svg);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.hero {
+  background-image: url(images/hero-back.png);
+  height: 500px;
+}

@@ -1,0 +1,35 @@
+@media (width > 560px) {
+  #burger-btn, .menu .social {
+    display: none;
+  }
+}
+
+@media (width <=560px) {
+  #burger-btn {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: none;
+  }
+
+  #burger-btn:not(:has(:checked)) {
+    background: url(./icons/burger.svg) no-repeat center;
+  }
+
+  #burger-btn:has(:checked) {
+    background: url(./icons/close.svg) no-repeat center;
+  }
+
+  #burger-btn:focus {
+    outline: none;
+  }
+
+  #burger-btn>label {
+    display: block;
+    height: 100%;
+  }
+
+  #burger-btn:not(:has(:checked))~.menu {
+    display: none;
+  }
+}
