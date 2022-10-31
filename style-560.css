@@ -4,7 +4,7 @@
   }
 }
 
-@media (width <=560px) {
+@media (width <= 560px) {
   #burger-btn {
     width: 42px;
     height: 42px;

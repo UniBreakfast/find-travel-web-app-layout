@@ -1,3 +1,11 @@
+:root {
+  --color-text: #1A1A1A;
+  --color-action: #EE685F;
+  --color-accent: #3D97B4;
+  --color-clean-bg: #FFFFFF;
+  --color-dirty-bg: #F7F7F7;
+}
+
 body, button, input, select, textarea {
   font: 16px Montserrat, sans-serif;
 }
